@@ -1,0 +1,41 @@
+Q1: Write a C program to open a file named “Hello.txt” using “r”, “r+” modes, in following
+cases.
+Case 1: While file actually exists on the path specified
+Case 2: When doesn’t exists on the path specified
+Q2: Create a file manually name it is q2.txt and write data “Hello World” to the file, then try
+opening the file using “w” mode and once opened successfully, close the file.
+Then look at the file contents manually in some text editor and check the following:
+- Was the file content altered?
+- What was the file content after running the program?
+- If the file data was altered, what was the reason behind the same? Monitor the same
+findings with “r”, “r+”, “w+” modes and comment your in the same source file.
+Q3: Using C program Create a File named “myFirst.txt” and write your name and PRN by taking
+user input and store the data into that file. (verify the data by manually opening the file)
+Q4: Implementing the code of Q3, try reading the data written previously from the file into
+some memory location and print the data on the screen.
+Q5: Create a text file manually with some data, then using C program, read the total number of
+characters present in the text file and print the total count at the end.
+Q6: Create a text file manually with some data, read the total number of lines present in that
+text file and show the result at the end of program.
+Q7: Implement Q5, and count only alphabets present in the file and exclude all other characters
+like space, special character, numbers.
+Q8: WAP to take input into a structure for name and PRN and store the data into a file and read
+the data.
+Q9: Given a file, write a C program to take 1 line of user input and store the data on the file:
+(Implement using fgets(), Refer to man page)
+Once data has been written, read the file and store the data in the array, array[];
+print the same once reading is completed.
+Q10: Create a file manually in your folder with name “hello.txt” and add
+the following data to the file: “Welcome to my world”
+Write a C program to read one character at a time from this file and store in some array, once
+you have read 7 characters (add ‘\0’ manually) then print the array data and then using fseek()
+and SEEK_CUR with an offset of 7, try reading the 5 characters again from the file and store in
+same array and print again. Try understanding the behavior based on output and the content of
+the file.
+Refer to Man page of fseek(), read some description
+- Try using the same question with different offsets and SEEK_SET, SEEK_END.
+- Try understanding the behavior.
+Q11: Read a given file 3 times by using the fopen() and fclose() only once.
+Use the fseek() to position the stream to the starting of the file once the end of the file has
+been reached.
+Hence, read the same file 3 times in some array, print the data then exit the program.
